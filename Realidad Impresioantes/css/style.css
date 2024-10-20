@@ -1,0 +1,190 @@
+body {
+    font-family: 'Roboto', sans-serif; 
+    margin: 0;
+    padding: 20px; 
+    background-color: #f9f9f9; 
+    color: #333; 
+    line-height: 1.6; 
+}
+
+a {
+    text-decoration: none;
+    color: #3498db; /* Color azul para los enlaces */
+}
+.titulo {
+    color: white; /* Cambia el color del texto a blanco */
+    text-align: center; /* Centra el texto */
+    margin: 0; /* Elimina el margen por defecto */
+    font-family: "Poiret One", sans-serif
+}
+
+header {
+    display: flex;
+    height: 70px;
+    background: linear-gradient(to right, #000000, #434343);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); 
+}
+
+.logotipo { 
+    display: flex;
+    align-items: center; 
+}
+
+.logotipo img {
+    height: 80px;
+    margin-right: 10px;
+}
+
+.nav-link {
+    font-family: "Akaya Kanadaka", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}  
+nav a {
+    font-weight: 600;
+    padding: 10px 15px;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Color amarillo al pasar el ratón */
+}
+
+@media (max-width: 700px) {
+header {
+        flex-direction: column;
+    }
+
+nav {
+        padding: 10px 0px;
+    }
+}
+
+#video {
+    margin: 20px 0;
+    text-align: center;
+}
+
+iframe {
+    border: none; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); 
+    width: 50%; 
+    height: 300px;
+}
+
+.article-box { 
+    border: 2px solid #1C2833; 
+    border-radius: 20px; 
+    padding: 20px; /* Reduce el padding */
+    margin: 10px; /* Reduce el margen */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+    background-size: cover;  /* Centra el contenido en línea */
+}
+
+.contenedor {
+    overflow: auto; /* Para que el contenedor contenga los floats */
+    display: flex; /* Activa el modo flex */
+    justify-content: space-around; /* Espacio entre las cajas */
+    margin: 50px; /* Margen del contenedor */
+}
+
+
+
+.poiret-one-regular {
+  font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.article-image { /* Hace que la imagen sea un bloque */
+    width: 50%; /* Ajusta el ancho de la imagen */
+    border-radius: 5px; 
+    margin: 5px auto; /* Centra la imagen horizontalmente */
+}
+
+.article-link {
+    font-weight: bold; 
+    color: #3498db; 
+}
+
+.article-link:hover {
+    text-decoration: underline; 
+}
+
+p {
+    font-family: Arial; 
+    font-weight: 200; 
+    color: #333;
+    font-style: italic;
+}
+
+footer {
+    background-color: #2980b9
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.social-links {
+    list-style-type: none; /* Elimina los puntos */
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-links img {
+    width: 50px; /* Ajusta el tamaño de los logotipos */
+    height: auto;
+}
+
+.social-links img:hover{
+    transform: scale(1.1);
+}
+
+/* Estilos para el menú de contactos */
+.contact-menu {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0; /* Espacio superior e inferior */
+}
+
+.contact-menu a {
+    background-color: #2980b9;/* Fondo azul */
+    color: white; 
+    padding: 10px 15px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    margin: 0 5px; /* Espacio entre botones */
+    transition: background-color 0.3s ease; /* Transición de fondo */
+}
+
+.contact-menu a:hover {
+    background-color: rgba(255, 255, 255, 0.2);; 
+}
+
+.playfair-display-{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.Nano-img{
+    width: 95%; /* Ajusta la imagen al 100% del ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Evita el espacio en la parte inferior */
+    margin-top: 5px; /* Espacio en la parte superior, ajusta el valor según sea necesario */
+    border-radius: 15px;
+}
+.image-container {
+    display: flex; /* Activa flexbox */
+    justify-content: center; /* Centra horizontalmente */
+    margin-top: 50px; /* Espacio en la parte superior */
+}
